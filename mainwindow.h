@@ -2,6 +2,8 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include "qlistview.h"
+
 
 namespace Ui {
 class MainWindow;
@@ -15,8 +17,14 @@ public:
     explicit MainWindow(QWidget *parent = 0);
     ~MainWindow();
 
+
 private:
     Ui::MainWindow *ui;
+
+private slots:
+
+    void crearTabla();
+
 };
 
 #endif // MAINWINDOW_H
