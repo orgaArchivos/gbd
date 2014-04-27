@@ -14,7 +14,7 @@
    <string>Mini Access</string>
   </property>
   <property name="windowIcon">
-   <iconset>
+   <iconset resource="iconos.qrc">
     <normaloff>:/iconos/access.ico</normaloff>:/iconos/access.ico</iconset>
   </property>
   <widget class="QWidget" name="centralWidget">
@@ -167,6 +167,8 @@
   </action>
  </widget>
  <layoutdefault spacing="6" margin="11"/>
- <resources/>
+ <resources>
+  <include location="iconos.qrc"/>
+ </resources>
  <connections/>
 </ui>
