@@ -2,8 +2,6 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
-#include "qlistview.h"
-
 
 namespace Ui {
 class MainWindow;
@@ -25,6 +23,7 @@ private slots:
 
     void crearTabla();
 
+    void on_pushButton_clicked();
 };
 
 #endif // MAINWINDOW_H

@@ -17,9 +17,12 @@ MainWindow::~MainWindow()
 
 void MainWindow::crearTabla()
 {
-    QListView *lista = new QListView(this);
-
     ui->listWidget->addItem("algo");
 
 
+}
+
+void MainWindow::on_pushButton_clicked()
+{
+    this->close();
 }

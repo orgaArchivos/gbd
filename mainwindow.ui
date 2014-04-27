@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>837</width>
-    <height>544</height>
+    <width>1034</width>
+    <height>612</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -21,9 +21,9 @@
    <widget class="QTabWidget" name="tabWidget">
     <property name="geometry">
      <rect>
-      <x>130</x>
+      <x>210</x>
       <y>20</y>
-      <width>691</width>
+      <width>811</width>
       <height>421</height>
      </rect>
     </property>
@@ -39,18 +39,8 @@
        <rect>
         <x>20</x>
         <y>10</y>
-        <width>651</width>
+        <width>771</width>
         <height>371</height>
-       </rect>
-      </property>
-     </widget>
-     <widget class="QListWidget" name="listWidget">
-      <property name="geometry">
-       <rect>
-        <x>40</x>
-        <y>160</y>
-        <width>256</width>
-        <height>192</height>
        </rect>
       </property>
      </widget>
@@ -91,14 +81,27 @@
      <string>Tablas</string>
     </property>
    </widget>
-   <widget class="QListView" name="listView">
+   <widget class="QListWidget" name="listWidget">
     <property name="geometry">
      <rect>
       <x>10</x>
       <y>40</y>
-      <width>111</width>
+      <width>181</width>
       <height>401</height>
      </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>940</x>
+      <y>510</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Cerrar</string>
     </property>
    </widget>
   </widget>
@@ -107,7 +110,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>837</width>
+     <width>1034</width>
      <height>21</height>
     </rect>
    </property>
